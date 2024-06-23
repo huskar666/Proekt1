@@ -1,4 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@media (max-width: 1110px) {
+  .works .works__header {
+    flex-direction: column !important;
+    max-width: 400px !important;
+  }
+  .works .works__header--title {
+    font-size: 30px !important;
+    text-align: center !important;
+    padding-bottom: 30px;
+    line-height: 40px !important;
+  }
+  .works .works__cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .works .works__cards .works__cards--card1 {
+    grid-area: 1/2/2/3;
+  }
+  .works .works__cards .works__cards--card2 {
+    grid-area: 3/3/4/4;
+  }
+  .works .works__cards .works__cards--card3 {
+    grid-area: 1/4/2/5;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +36,7 @@
   width: 100%;
   margin: 0 auto;
   height: 887px;
-  background: linear-gradient(to bottom, rgb(80, 77, 194) 50%, white 50%);
+  background: linear-gradient(to bottom, rgb(80, 77, 194) 56%, white 44%);
 }
 .works .works__header {
   display: flex;
@@ -51,6 +79,15 @@
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 70px;
+}
+.works .works__cards .works__cards--card1 {
+  max-width: 350px;
+}
+.works .works__cards .works__cards--card2 {
+  max-width: 350px;
+}
+.works .works__cards .works__cards--card3 {
+  max-width: 350px;
 }
 .works .works__cards .works__cards--photo {
   width: 350px;

@@ -1,3 +1,4 @@
+@import 'adaptive';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
@@ -8,7 +9,7 @@
     width: 100%;
     margin: 0 auto;
     height: 887px;
-    background: linear-gradient(to bottom, rgba(80, 77, 194, 1) 50%, white 50% );
+    background: linear-gradient(to bottom, rgba(80, 77, 194, 1) 56%, white 44% );
     
 
     & .works__header{
@@ -52,6 +53,15 @@
         justify-content: space-between;
         margin: 0 auto;
         margin-top: 70px;
+        & .works__cards--card1{
+            max-width: 350px;
+        }
+        & .works__cards--card2{
+            max-width: 350px;
+        }
+        & .works__cards--card3{
+            max-width: 350px;
+        }
         & .works__cards--photo{
             width: 350px;
             height: 300px;
