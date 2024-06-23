@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.works {
+  width: 100%;
+  margin: 0 auto;
+  height: 887px;
+  background: linear-gradient(to bottom, rgb(80, 77, 194) 50%, white 50%);
+}
+.works .works__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.works .works__header .works__header--title {
+  width: 100%;
+  max-width: 540px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52.66px;
+  text-align: left;
+  color: white;
+}
+.works .works__header .works__header--button {
+  width: 200px;
+  height: 45px;
+  background-color: rgb(73, 133, 255);
+  border: none;
+  border-radius: 30px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: center;
+  color: white;
+}
+.works .works__cards {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.works .works__cards .works__cards--photo {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+}
+.works .works__cards .works__cards--number {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: left;
+  color: rgb(73, 133, 255);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.works .works__cards .works__cards--title {
+  color: black;
+}
+.works .works__cards .works__cards--text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.36px;
+  text-align: left;
+  color: rgb(153, 153, 153);
+  padding-bottom: 47px;
+}
+.works .works__cards .works__cards--link {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  color: rgb(73, 133, 255);
+}
+.works .works__line {
+  max-width: 1110px;
+  width: 100%;
+  border: 1px solid rgb(224, 224, 224);
+  margin: 0 auto;
+  margin-top: 85px;
+}
