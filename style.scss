@@ -58,6 +58,11 @@
                 text-align: center;
                 color: white;
                 animation: 1s show2;
+                transition: background-color 0.3s, transform 0.3s;
+            }
+            & .works__header--button:hover{
+                background-color: #0056b3;
+                transform: scale(1.1);
             }
             @keyframes show2 {
                 0% {
@@ -83,7 +88,7 @@
         @keyframes show {
             0% {
                 opacity: 0;
-                transform: translateY(1000px);
+                transform: translateY(2000px);
             }
             100% {
                 opacity: 1;
