@@ -12,9 +12,10 @@
   }
   .works .works__cards {
     display: grid !important;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(1fr);
     grid-row-gap: 50px;
+    grid-column-gap: 50px;
     max-width: 630px !important;
     justify-content: center !important;
     align-items: center;
