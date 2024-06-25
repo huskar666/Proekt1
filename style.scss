@@ -30,29 +30,66 @@
             line-height: 52.66px;
             text-align: left;
             color: white;
+            animation: 1s show1 ;
+
         }
+        @keyframes show1 {
+            0% {
+                opacity: 0;
+                transform: translateX(-2000px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            }
+        }
+
         & .works__header--button{
-            width: 200px;
-            height: 45px;
-            background-color: rgba(73, 133, 255, 1);
-            border: none;
-            border-radius: 30px;
-            font-family: Montserrat;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 19.5px;
-            text-align: center;
-            color: white;
-        }
-    }
-    & .works__cards{
-        width: 100%;
-        max-width: 1110px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0 auto;
-        margin-top: 70px;
+                width: 200px;
+                height: 45px;
+                background-color: rgba(73, 133, 255, 1);
+                border: none;
+                border-radius: 30px;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19.5px;
+                text-align: center;
+                color: white;
+                animation: 1s show2;
+            }
+            @keyframes show2 {
+                0% {
+                    opacity: 0;
+                    transform: translateX(2000px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+                }
+            
+        
+        .works__cards{
+            width: 100%;
+            max-width: 1110px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 auto;
+            margin-top: 70px;
+            animation: 1s show;
+        @keyframes show {
+            0% {
+                opacity: 0;
+                transform: translateY(1000px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+          }
         & .works__cards--card1{
             max-width: 350px;
         }
@@ -99,7 +136,7 @@
             text-align: left;
             color: rgba(73, 133, 255, 1);
         }
-    }
+    
     & .works__line{
         max-width: 1110px;
         width: 100%;
@@ -108,3 +145,4 @@
         margin-top: 85px;
     }
 }
+ }
