@@ -54,7 +54,7 @@
         }
    }
    & .works__line{
-        max-width: 100px !important;
+        max-width: 630px !important;
         width: 100% !important;
    }
 }
@@ -80,7 +80,7 @@
           margin-bottom: 30px;  
         }
         & .works__line{
-            max-width: 100px !important;
+            max-width: 350px !important;
             
         }
     } 
@@ -102,6 +102,9 @@
        & .works__cards--text{
         text-align: center !important;
         }
-       
+        & .works__line{
+            max-width: 300px !important;
+            
+        }
    }
 }

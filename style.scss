@@ -142,12 +142,25 @@
             color: rgba(73, 133, 255, 1);
         }
     
-    & .works__line{
-        max-width: 1110px;
-        width: 100%;
-        border: 1px solid rgba(224, 224, 224, 1);
-        margin: 0 auto;
-        margin-top: 85px;
-    }
+
 }
+& .works__line{
+    max-width: 1110px;
+    width: 100%;
+    border: 1px solid rgba(224, 224, 224, 1);
+    margin: 0 auto;
+    margin-top: 85px;
+    animation: 1s show3;
+}
+
+@keyframes show3 {
+    0% {
+        opacity: 0;
+        transform: translateX(9000px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    }
  }

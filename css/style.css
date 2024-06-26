@@ -49,7 +49,7 @@
     text-align: center !important;
   }
   .works .works__line {
-    max-width: 100px !important;
+    max-width: 630px !important;
     width: 100% !important;
   }
 }
@@ -73,7 +73,7 @@
     margin-bottom: 30px;
   }
   .works .works__line {
-    max-width: 100px !important;
+    max-width: 350px !important;
   }
 }
 @media (max-width: 480px) {
@@ -89,6 +89,9 @@
   }
   .works .works__cards--text {
     text-align: center !important;
+  }
+  .works .works__line {
+    max-width: 300px !important;
   }
 }
 * {
@@ -226,10 +229,21 @@
   text-align: left;
   color: rgb(73, 133, 255);
 }
-.works .works__cards .works__line {
+.works .works__line {
   max-width: 1110px;
   width: 100%;
   border: 1px solid rgb(224, 224, 224);
   margin: 0 auto;
   margin-top: 85px;
+  animation: 1s show3;
+}
+@keyframes show3 {
+  0% {
+    opacity: 0;
+    transform: translateX(9000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
