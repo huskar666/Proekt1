@@ -50,7 +50,6 @@
   }
   .works .works__line {
     max-width: 630px !important;
-    width: 100% !important;
   }
 }
 @media (max-width: 738px) {
@@ -58,7 +57,6 @@
     display: flex !important;
     flex-direction: column !important;
     max-width: 350px !important;
-    width: 100% !important;
   }
   .works .works__cards--number {
     text-align: center !important;
